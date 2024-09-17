@@ -7,4 +7,4 @@ class Anagram:
 
         for word in match_words:
             if sorted([letter for letter in word]) == self.letters:
-                
+                match_words.append(word)
