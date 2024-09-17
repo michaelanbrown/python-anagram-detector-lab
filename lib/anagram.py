@@ -5,7 +5,7 @@ class Anagram:
     def match(self, letters):
         match_words = []
 
-        for word in match_words:
+        for word in letters:
             if sorted([letter for letter in word]) == self.letters:
                 match_words.append(word)
 
